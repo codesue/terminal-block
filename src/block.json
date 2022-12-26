@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "codesue/terminal-block",
+	"version": "0.1.2",
+	"title": "Terminal Block",
+	"category": "widgets",
+	"icon": "editor-code",
+	"description": "Display rich text in a terminal window.",
+	"keywords": [ "code", "terminal", "documentation"],
+	"supports": {
+		"spacing": {
+			"margin": true,
+			"padding":true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		}
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "div"
+		},
+		"title": {
+			"type":"string",
+			"default": "bash"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#252a33"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#eee"
+		},
+		"accentColor": {
+			"type": "string",
+			"default": "#a2a2a2"
+		}
+	},
+	"textdomain": "terminal-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

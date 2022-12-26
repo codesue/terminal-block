@@ -1,0 +1,18 @@
+.wp-block-codesue-terminal-block {
+	// Increase specificity to prevent theme styles from bleeding in.
+  .block-editor-rich-text__editable {
+    width: 750px !important;
+    max-width: 100% !important;
+    background: var(--wp--default--terminal--block--color--background) !important;
+    color: var(--wp--default--terminal--block--color--text) !important;
+    font-size: 18px !important;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace !important;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+	}
+
+  p.block-editor-rich-text__editable {
+    display: block !important;
+    line-height: 1 !important;
+  }
+}

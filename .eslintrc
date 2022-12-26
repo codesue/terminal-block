@@ -1,0 +1,7 @@
+{
+  "extends": [ "plugin:@wordpress/eslint-plugin/recommended" ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "off",
+    "@wordpress/i18n-text-domain": "off"
+  }
+}
