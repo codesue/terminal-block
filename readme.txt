@@ -1,8 +1,8 @@
 === Terminal Block ===
 Contributors:      Suzen Fylke
 Tags:              gutenberg, block, blocks, terminal, code, documentation
-Tested up to:      6.1
-Stable tag:        0.1.3.2
+Tested up to:      6.6
+Stable tag:        0.1.3.3
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 

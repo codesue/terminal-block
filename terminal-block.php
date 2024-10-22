@@ -4,7 +4,7 @@
  * Description:       Display rich text in a terminal window.
  * Requires at least: 5.9
  * Requires PHP:      7.0
- * Version:           0.1.3.2
+ * Version:           0.1.3.3
  * Author:            Suzen Fylke
  * Author URI:        codesue.com
  * License:           GPL-2.0-or-later
